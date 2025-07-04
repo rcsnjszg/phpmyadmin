@@ -1,5 +1,6 @@
 PUBLISHER=rcsnjszg
-APP=phpmyadmin:5.2.1-apache
+APP=phpmyadmin
+TAG=5.2.2-apache
 
 build:
-	docker build --tag ${PUBLISHER}/${APP} .
+	docker build --tag ${PUBLISHER}/${APP}:${TAG} .
