@@ -1,4 +1,4 @@
-FROM phpmyadmin:5.2.2-apache
+FROM phpmyadmin:5.2.3-apache
 
 RUN apt update && apt install -y unzip && \
     curl -O https://files.phpmyadmin.net/themes/boodark/1.1.0/boodark-1.1.0.zip && \
